@@ -3,6 +3,7 @@ from random import random
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 class Person(object):
     """A class designed to create individuals to create a population.
