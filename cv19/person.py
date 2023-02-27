@@ -1,7 +1,8 @@
+
 from random import random
 
 import numpy as np
-
+import pandas as pd
 
 class Person(object):
     """A class designed to create individuals to create a population.
@@ -16,6 +17,9 @@ class Person(object):
     ----------
 
     """
+
+
+
 
     def __init__(self, index, sim_obj, infected=False, recovered=False, dead=False, hospitalized=False, ICU=False,
                  quarantined=False, quarantined_day=None, infected_day=None, recovered_day=None, death_day=None,
